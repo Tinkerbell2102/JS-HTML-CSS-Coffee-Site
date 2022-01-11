@@ -1,0 +1,105 @@
+/*Laikin Barnard 6955*/
+/*Keeping the whole page together*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    background-color: burlywood;
+}
+
+.box{
+    border:5px solid burlywood;
+    padding: 1%;
+}
+
+/*Styling the hyperlinks*/
+a:link{
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Style the header */
+header{
+    color: white;
+    padding: 0.05rem;
+    background-color: #FA8072;
+    text-align: right ;
+    line-height: 4rem;
+}
+
+/* styling the body */
+h1{
+    color: darkorange;
+}
+
+p{
+    color: white;
+}
+
+.row:after {
+    content: "";
+    margin: 0%;
+    display: table;
+    clear: both;
+}
+
+.column {
+    font-size: 21px ;
+    float: left;
+    width:50%;
+    padding: 10px;
+    height: 500px;
+    align-items: center;
+}
+.word{
+    color: maroon;
+}
+
+.logocup{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.icon{
+    position: absolute;
+    top: 55%;
+    left: 24.5%;  
+
+}
+
+.par{
+    background-color:#D2691E;
+    position: center;
+    width: 98%;
+    border: 5px solid white;
+    padding: 50px;
+    margin: 20px;
+}
+
+.drink {
+    float: right;
+    padding: 0 20px 20px 0;
+}
+
+.container1{
+    content: "";
+    display: table;
+    background-color:maroon;
+    float: center;
+    position: absolute;
+    color: white;
+    padding: 0px;
+    position: relative ;
+}
+/*Styling the footer*/
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
